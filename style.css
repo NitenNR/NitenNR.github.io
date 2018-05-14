@@ -1,0 +1,47 @@
+body {
+	background-image: url(background.jpg);
+}
+
+h1{
+	color: #FF00FF;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 8em;
+	font-family: 'Audiowide', cursive;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+
+}
+
+.btn-outline-primary {
+	color: white;
+	margin-top: 500px;
+
+}
+
+.btn-outline-primary:hover {
+	background-color: #FF00FF;
+	transition: background 3s ease-in-out;
+}
+
+
+
+body {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+   background-image: url(background.jpg);
+  }
+  100% {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('background.jpg');
+  }
+
+
+
+	
+	
+ 
+
+
+
